@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Localization_iOS
+
+  Created by Vangos Pterneas on 12/12/16.
+  Copyright © 2016 LightBuzz. All rights reserved.
+*/
+"title" = "Language: English";
+"message" = "Hello World!";
