@@ -6,13 +6,14 @@ Learn how to localize your iOS (iPhone/iPad) app by selecting the language progr
 ## Features
 
 ### Get the languages supported by the current app
-    var supportedLanguages: [String] = LocalizedResources.supportedLanguages
+    var supportedLanguages = LocalizedResources.supportedLanguages
 
 ### Set the language
     LocalizedResources.setLanguage(language: "English")
 
 ### Localize content
-    var message = LocalizedResources.getString(key: "message")
+    label.text = LocalizedResources.getString(key: "label_text")
+    picture.image = UIImage(named: LocalizedResources.getString(key: "image_name"))
 
 ## Contributors
 * [Vangos Pterneas](http://pterneas.com)
